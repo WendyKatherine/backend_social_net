@@ -16,7 +16,7 @@ console.log("Bienvenido a la API de Node.js");
 connection();
 
 const app = express();
-const puerto = process.env.PORT || 8080;
+const puerto = process.env.PORT || 3900;
 
 app.use(cors({
     origin: '*',
